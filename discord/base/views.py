@@ -195,3 +195,7 @@ def updateUser(request):
 
     context = {'form': form}
     return render(request, 'base/update-user.html', context)
+
+def topicsPage(request):
+    context = {}
+    return render(request, 'base/topics.html', context)
